@@ -8,13 +8,16 @@
     "test": "jest"
   },
   "dependencies": {
+    "@viro-community/react-viro": "^2.20.2",
     "expo": "~41.0.1",
-    "expo-updates": "~0.5.4",
+    "expo-asset": "~8.3.1",
     "expo-splash-screen": "~0.10.2",
+    "expo-updates": "~0.5.4",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "~0.63.4",
     "react-native-gesture-handler": "~1.10.2",
+    "react-native-image-base64": "^0.1.4",
     "react-native-reanimated": "~2.1.0",
     "react-native-screens": "~3.0.0",
     "react-native-unimodules": "~0.13.3",

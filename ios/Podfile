@@ -9,6 +9,9 @@ target 'openCVRN' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
+  pod 'ViroReact', :path => '../node_modules/@viro-community/react-viro/ios/'
+  pod 'ViroKit_static_lib', :path => '../node_modules/@viro-community/react-viro/ios/dist/ViroRenderer/static_lib' 
+  pod 'OpenCV', '~> 4'
 
   # Uncomment to opt-in to using Flipper
   #
@@ -18,4 +21,6 @@ target 'openCVRN' do
   #     flipper_post_install(installer)
   #   end
   # end
+  pod 'react-native-image-base64', :path => '../node_modules/react-native-image-base64'
+
 end
